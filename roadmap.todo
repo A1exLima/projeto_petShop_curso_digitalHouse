@@ -8,7 +8,7 @@ literal que será exportado.
   . Ela precisa salvar o conteúdo da constante cachorros no arquivo database/cachorros.json
   . Ela não precisa receber nenhum parâmetro nem retornar nada.
 
-☐ Implemente a função buscar.
+✔ Implemente a função buscar. @done(22-07-08 16:00)
   . Essa função deve receber como parâmetro o id do cachorro buscado.
   . Essa função deve retornar o cachorro com o id buscado ou emitir um erro
     caso não exista cachorro com o id buscado.
@@ -76,5 +76,12 @@ literal que será exportado.
   . Essa função não deve retornar nada
   . Essa função deve imprimir uma mensagem "Cachorro inexistente"
     caso não exista um cachorro com o id passado.
+
+'Cmd/Ctrl+Enter' // Triggers `Todo: Toggle Box`
+'Alt+Enter' // Triggers `Todo: Toggle Box`
+'Alt+D' // Triggers `Todo: Toggle Done`
+'Alt+C' // Triggers `Todo: Toggle Cancelled`
+'Alt+S' // Triggers `Todo: Toggle Start`
+'Cmd/Ctrl+Shift+A' // Triggers  `Todo: Archive`
       
     
