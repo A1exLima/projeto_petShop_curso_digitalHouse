@@ -13,7 +13,7 @@ literal que será exportado.
   . Essa função deve retornar o cachorro com o id buscado ou emitir um erro
     caso não exista cachorro com o id buscado.
 
-☐ Crie uma função chamada listar
+✔ Crie uma função chamada listar @done(22-07-08 16:27)
   . Essa função deve imprimir no console uma tabela
     com as informações dos cachorros cadastrados.
     Dica: experimente a função console.table

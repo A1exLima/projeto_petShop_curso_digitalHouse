@@ -87,7 +87,7 @@
         "sexo": "m",
         "castrado": true,
         "dataDeNascimento": "2000-01-01",
-        "peso": "102",
+        "peso": 15,
         "vacinas": [],
         "servicos": []
     },

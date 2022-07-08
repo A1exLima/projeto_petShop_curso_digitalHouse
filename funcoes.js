@@ -13,13 +13,11 @@ function buscar(id){
     cachorrosId == undefined ? console.log("Erro: ID CACHORRO NÃO ENCONTRADO") : console.log(cachorrosId);
 }
 
-
-
 let funcoes = {
 
     listar: () => {
 
-
+        console.table(cachorros);
     },
     
     descrever: () => {
@@ -31,3 +29,5 @@ let funcoes = {
 
 
 module.exports = funcoes;
+
+
