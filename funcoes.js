@@ -10,7 +10,8 @@ function salvar(){
 function buscar(id){
 
     let cachorrosId = cachorros.find(cachorros => cachorros.id == id);
-    cachorrosId == undefined ? console.log("Erro: ID CACHORRO NÃO ENCONTRADO") : console.log(cachorrosId);
+    
+    return cachorrosId == undefined ? console.log(`Não existe cachorro com o Id: ${id}`) : console.log(cachorrosId);
 }
 
 let funcoes = {
@@ -20,14 +21,21 @@ let funcoes = {
         console.table(cachorros);
     },
     
-    descrever: () => {
-        
+    descrever: (id) => {
 
+        buscar(id);
     },
     
+    adicionar: (respostasCachorros) => {
+        
+        let novoId = {id: cachorros.length+1};
+        const vacinasServicos = {"vacinas": [], "servicos":[]}
+
+        let novoCachorro = {...novoId, ...respostasCachorros, ...vacinasServicos};
+
+        cachorros.push(novoCachorro);
+        salvar();        
+    }
 }
 
-
 module.exports = funcoes;
-
-

@@ -97,7 +97,7 @@
         "sexo": "f",
         "castrado": false,
         "dataDeNascimento": "2021-01-01",
-        "peso": 5,
+        "peso": 50,
         "vacinas": [],
         "servicos": []
     },
@@ -107,7 +107,17 @@
         "sexo": "m",
         "castrado": true,
         "dataDeNascimento": "2021-10-13",
-        "peso": 1,
+        "peso": 10,
+        "vacinas": [],
+        "servicos": []
+    },
+    {
+        "id": 8,
+        "nome": "Krust",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": "2019-04-01",
+        "peso": 50,
         "vacinas": [],
         "servicos": []
     }
