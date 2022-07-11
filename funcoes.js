@@ -69,11 +69,32 @@ let funcoes = {
                 cachorroEncontrado.vacinas.push(novaVacina);
                 salvar();
         };
-        
-        
+    },
 
+    atribuirServico: (id, respostasServicos) => {
+
+        let cachorroEncontrado = buscar(id);
+
+        switch(cachorroEncontrado) {
+
+            case undefined:
+                
+                console.log('Cachorro inexistente');
+                break;
+            
+            default:
+
+                let dataAtual = new Date();
+                let novoServico = {
+
+                    nome: respostasServicos,
+                    data: `${dataAtual.getFullYear()}-${dataAtual.getMonth()}-${dataAtual.getDate()}`
+                }
+
+                cachorroEncontrado.servicos.push(novoServico);
+                salvar();
+        };
     }
-    
 }
 
 module.exports = funcoes;

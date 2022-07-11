@@ -64,7 +64,7 @@ literal que será exportado.
     + servico (string que dá nome ao serviço)
     + data (uma string em formato AAAA-MM-DD)
   . Essa função não retorna nada.
-  . Essa função deve imprimir uma mensagem "Cachorro inexistente"
+  . Essa função deve imprimir uma mensagem "Cachorro inexistente", caso
     não exista um cachorro com o id passado.
 
 ☐  Crie uma função chamada remover

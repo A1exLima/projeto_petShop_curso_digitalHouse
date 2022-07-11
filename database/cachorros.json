@@ -18,6 +18,10 @@
             {
                 "nome": "Gripe Canina",
                 "data": "2022-6-11"
+            },
+            {
+                "nome": "V8/V10",
+                "data": "2022-6-11"
             }
         ],
         "servicos": [
@@ -32,6 +36,10 @@
             {
                 "nome": "tosa",
                 "data": "2021-08-07"
+            },
+            {
+                "nome": "Consulta",
+                "data": "2022-6-11"
             }
         ]
     },
@@ -171,25 +179,15 @@
         "peso": 10,
         "vacinas": [
             {
-                "nome": "Gripe Canina",
+                "nome": "Antirrábica",
                 "data": "2022-6-11"
             }
         ],
-        "servicos": []
-    },
-    {
-        "id": 11,
-        "nome": "Ket",
-        "sexo": "f",
-        "castrado": false,
-        "dataDeNascimento": "1999-09-08",
-        "peso": 12,
-        "vacinas": [
+        "servicos": [
             {
-                "nome": "Giárdia",
+                "nome": "Banho",
                 "data": "2022-6-11"
             }
-        ],
-        "servicos": []
+        ]
     }
 ]
