@@ -11,7 +11,7 @@ function buscar(id){
 
     let cachorrosId = cachorros.find(cachorros => cachorros.id == id);
     
-    return cachorrosId == undefined ? console.log(`Não existe cachorro com o Id: ${id}`) : console.log(cachorrosId);
+    return cachorrosId == undefined ? console.log(`ERRO: Não existe cachorro com o Id: ${id}`) : cachorrosId;
 }
 
 let funcoes = {
@@ -21,11 +21,20 @@ let funcoes = {
         console.table(cachorros);
     },
     
+
     descrever: (id) => {
 
-        buscar(id);
+        switch(buscar(id)) {
+
+            case undefined:
+                break;
+
+            default:
+                console.log(buscar(id));
+        }
     },
     
+
     adicionar: (respostasCachorros) => {
         
         let novoId = {id: cachorros.length+1};
@@ -35,7 +44,36 @@ let funcoes = {
 
         cachorros.push(novoCachorro);
         salvar();        
+    },
+
+    vacinar: (id, respostasVacinas) => {
+
+        let cachorroEncontrado = buscar(id);
+
+        switch(cachorroEncontrado) {
+
+            case undefined:
+               
+                console.log('Cachorro inexistente');
+                break;
+            
+            default:
+
+                let dataAtual = new Date();
+                let novaVacina = {
+            
+                    nome: respostasVacinas,
+                    data: `${dataAtual.getFullYear()}-${dataAtual.getMonth()}-${dataAtual.getDate()}`
+                }
+                
+                cachorroEncontrado.vacinas.push(novaVacina);
+                salvar();
+        };
+        
+        
+
     }
+    
 }
 
 module.exports = funcoes;

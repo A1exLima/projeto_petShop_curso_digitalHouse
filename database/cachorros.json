@@ -14,6 +14,10 @@
             {
                 "nome": "Giárdia",
                 "data": "2021-06-01"
+            },
+            {
+                "nome": "Gripe Canina",
+                "data": "2022-6-11"
             }
         ],
         "servicos": [
@@ -42,6 +46,10 @@
             {
                 "nome": "Giárdia",
                 "data": "2021-06-01"
+            },
+            {
+                "nome": "V8/V10",
+                "data": "2022-6-11"
             }
         ],
         "servicos": []
@@ -88,7 +96,12 @@
         "castrado": true,
         "dataDeNascimento": "2000-01-01",
         "peso": 15,
-        "vacinas": [],
+        "vacinas": [
+            {
+                "nome": "Gripe Canina",
+                "data": "2022-6-11"
+            }
+        ],
         "servicos": []
     },
     {
@@ -98,7 +111,12 @@
         "castrado": false,
         "dataDeNascimento": "2021-01-01",
         "peso": 50,
-        "vacinas": [],
+        "vacinas": [
+            {
+                "nome": "Giárdia",
+                "data": "2022-6-11"
+            }
+        ],
         "servicos": []
     },
     {
@@ -119,6 +137,59 @@
         "dataDeNascimento": "2019-04-01",
         "peso": 50,
         "vacinas": [],
+        "servicos": []
+    },
+    {
+        "id": 9,
+        "nome": "Tedy",
+        "sexo": "m",
+        "castrado": false,
+        "dataDeNascimento": "2020-09-09",
+        "peso": 123,
+        "vacinas": [
+            {
+                "nome": "Antirrábica",
+                "data": "2022-6-11"
+            },
+            {
+                "nome": "Giárdia",
+                "data": "2022-6-11"
+            },
+            {
+                "nome": "V8/V10",
+                "data": "2022-6-11"
+            }
+        ],
+        "servicos": []
+    },
+    {
+        "id": 10,
+        "nome": "Flopy",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": "2020-08-07",
+        "peso": 10,
+        "vacinas": [
+            {
+                "nome": "Gripe Canina",
+                "data": "2022-6-11"
+            }
+        ],
+        "servicos": []
+    },
+    {
+        "id": 11,
+        "nome": "Ket",
+        "sexo": "f",
+        "castrado": false,
+        "dataDeNascimento": "1999-09-08",
+        "peso": 12,
+        "vacinas": [
+            {
+                "nome": "Giárdia",
+                "data": "2022-6-11"
+            }
+        ],
         "servicos": []
     }
 ]
