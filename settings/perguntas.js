@@ -26,7 +26,7 @@ const perguntas = [
     {
         type: 'number',
         name: 'idDoCachorroVacina',
-        message: 'Qual o index do cachorro a vacinar?',
+        message: 'Qual o ID do cachorro a vacinar?',
         when: respostas => respostas.acao == acoes.VACINAR
     }
     ,
@@ -40,13 +40,13 @@ const perguntas = [
     {
         type: 'number',
         name: 'idDoCachorroServico',
-        message: 'Qual o index do cachorro que realizou o serviço?',
+        message: 'Qual o ID do cachorro que realizou o serviço?',
         when: respostas => respostas.acao == acoes.SERVICO
     },
     {
         type: 'input',
         name: 'idCachorroParaDescrever',
-        message: 'Digite o index do cachorro a descrever:',
+        message: 'Digite o ID do cachorro a descrever:',
         filter: valor => Number(valor),
         when: respostas => respostas.acao == acoes.DESCREVER
     },
@@ -95,7 +95,7 @@ const perguntas = [
     {
         type: 'input',
         name: 'idCachorroParaRemover',
-        message: 'Qual o id do cachorro que deseja remover?',
+        message: 'Qual o ID do cachorro que deseja remover?',
         when: respostas => respostas.acao == acoes.REMOVER
     },
     {
