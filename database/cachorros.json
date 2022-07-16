@@ -107,5 +107,45 @@
                 "data": "2022-6-12"
             }
         ]
+    },
+    {
+        "id": 9,
+        "nome": "Clack",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": "2020-10-09",
+        "peso": 10,
+        "vacinas": [],
+        "servicos": []
+    },
+    {
+        "id": 10,
+        "nome": "teste",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": "2020-09-09",
+        "peso": 12,
+        "vacinas": [],
+        "servicos": []
+    },
+    {
+        "id": 11,
+        "nome": "crock",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": "2020-09-09",
+        "peso": 10,
+        "vacinas": [],
+        "servicos": []
+    },
+    {
+        "id": 12,
+        "nome": "lilica",
+        "sexo": "f",
+        "castrado": false,
+        "dataDeNascimento": "2020-08-08",
+        "peso": 12,
+        "vacinas": [],
+        "servicos": []
     }
 ]

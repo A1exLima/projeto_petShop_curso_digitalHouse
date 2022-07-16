@@ -47,8 +47,8 @@ let funcoes = {
 
         let novoCachorro = {...novoId, ...respostasCachorros, ...vacinasServicos};
 
-        cachorros.push(ultimoId[0]);
-        cachorros.push(novoCachorro);
+        cachorros.push(ultimoId[0], novoCachorro);
+        //cachorros.push(novoCachorro);
 
         salvar();        
     },
